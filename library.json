@@ -19,10 +19,7 @@
     "dependencies": {
         "littlefs": "*",
         "bblanchon/ArduinoJson": "~7.0.2",
-        "deviceiq-code/DeviceIQ-Lib-FileSystem": {
-            "type": "git",
-            "url": "https://github.com/deviceiq-code/DeviceIQ-Lib-FileSystem.git"
-        }
+        "deviceiq-code/DeviceIQ-Lib-FileSystem": "https://github.com/deviceiq-code/DeviceIQ-Lib-FileSystem.git"
     },
     "frameworks": "*",
     "platforms": "*",
