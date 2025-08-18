@@ -5,7 +5,7 @@
     "keywords": "automation, IOT, configuration, json, filesystem, esp32, esp8266",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/fer-almeida/deviceiq-lib-Configuration.git"
+        "url": "https://github.com/deviceiq-code/DeviceIQ-Lib-Configuration.git"
     },
     "authors": [
         {
@@ -15,9 +15,13 @@
         }
     ],
     "license": "MIT",
-    "homepage": "https://bitbucket.org/fer-almeida/deviceiq-lib-Configuration",
+    "homepage": "https://github.com/deviceiq-code/DeviceIQ-Lib-Configuration",
     "dependencies": {
-        "bblanchon/ArduinoJson": "~7.0.2"
+        "littlefs": "*",
+        "bblanchon/ArduinoJson": "~7.0.2",
+        "deviceiq-code/DeviceIQ-Lib-FileSystem": {
+            "git": "https://github.com/deviceiq-code/DeviceIQ-Lib-FileSystem.git"
+        }
     },
     "frameworks": "*",
     "platforms": "*",
